@@ -17,10 +17,7 @@ const MusicPlanCard = () => {
             <h2>Plan Premium</h2>
             <p className="description">Disfruta de música sin anuncios y descarga tus canciones favoritas.</p>
             <div className="plan-selection">
-                <select 
-                    value={plan} 
-                    onChange={(e) => setPlan(e.target.value)}
-                >
+                <select value={plan} onChange={(e) => setPlan(e.target.value)}>
                     <option value="monthly">Mensual</option>
                     <option value="yearly">Anual</option>
                 </select>
