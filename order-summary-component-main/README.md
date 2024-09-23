@@ -1,8 +1,15 @@
-# React + Vite
+🎯 Actividad 5: Replicación del componente "Order Summary"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En esta actividad, van a replicar el "Order Summary Component" de Frontend Mentor. Pueden descargar el componente directamente desde la página o usar el archivo ZIP proporcionado.
 
-Currently, two official plugins are available:
+Objetivo: 
+Crear el componente usando las tres formas de estilización vistas en clase, pero NO deben estilizar el componente completo tres veces. Tienen que combinar las siguientes técnicas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CSS tradicional
+SASS
+Styled-components
+
+Instrucciones:
+Descarguen el componente desde [Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
+Dividan el componente en partes más pequeñas y modulares.
+Elijan qué partes estilizar con CSS, SASS y Styled-components. Utilicen cada técnica donde consideren más adecuada.
