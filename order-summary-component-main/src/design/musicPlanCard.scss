@@ -1,0 +1,39 @@
+
+/*Personalización de plan-selection*/
+
+$primary-color: #0418ad;
+$button-radius: 5px;
+
+.card {
+    h2 {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .plan-selection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+
+        button {
+            background-color: $primary-color;
+            color: white;
+            border: none;
+            border-radius: $button-radius;
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: underline;
+        }
+    }
+}
+/*ok*/
